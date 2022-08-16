@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/detailsImg"
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/detailsAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="10sp"
+        android:paddingBottom="8dp"/>
+    <TextView
+        android:id="@+id/detailsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="10sp"
+        android:paddingBottom="8dp"/>
+    <TextView
+        android:id="@+id/detailsDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="10sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/detailsContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="10sp"
+        android:paddingBottom="8dp"/>
+
+
+    <TextView
+        android:id="@+id/detailsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="10sp"
+        android:autoLink="web" />
+
+
+</LinearLayout>
